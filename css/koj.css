@@ -68,22 +68,23 @@ a:not(.navbar-brand) {
 	box-sizing: border-box;
 }
 .placement-sheet {
-	width: 445.5mm;
+	width: 432.0mm;
 }
 .placement-card {
-	width: calc(445.5mm / 3);
+	width: calc(432.0mm / 3);
 	height: 50mm;
 	min-height: 0;
-	padding: 20px 0;
+	padding: 40px 0;
 	display: block;
 	float: left;
 	clear: none;
 	border: 1px solid gray;
-	height: calc(314.5mm / 5);
+	height: calc((301.39mm / 4) + 0.05mm);
+	border-collapse: collapse;
 }
 .placement-card .lead {
 	margin: 0;
-	width: calc(445.5mm / 3);
+	width: calc(432.0mm / 3);
 	text-align: center;
 }
 .placement-card .lead img {
@@ -99,21 +100,21 @@ a:not(.navbar-brand) {
 .placement-card h1,
 .placement-card h1 div
 {
-	width: calc(445.5mm / 3);
+	width: calc(432.0mm / 3);
 	text-align: center;
 }
 
 .dinner-folder-page
 {
 	min-height: 0;
-	width: calc(445.5mm / 2);
-	height: calc(314.5mm / 1);
+	width: calc(432.0mm / 2);
+	height: calc(301.39mm / 1);
 }
 
 .dinner-folder-page div,
 .dinner-folder-page p
 {
-	width: calc(445.5mm / 2);
+	width: calc(432.0mm / 2);
 }
 
 .dinner-folder-page h1 div {
@@ -128,11 +129,11 @@ a:not(.navbar-brand) {
 }
 
 .dinner-folder-page .guest-card {
-	width: calc(445.5mm / 2);
+	width: calc(432.0mm / 2);
 	padding-top: 10mm;
 }
 .dinner-folder-page .guest-card:first-of-type {
-	padding-top: 40mm;
+	padding-top: 30mm;
 }
 
 .dinner-folder-page .guest-name
@@ -149,8 +150,8 @@ a:not(.navbar-brand) {
 }
 .dinner-folder-page .image
 {
-	width: calc((445.5mm - 20mm) / 2);
-	height: calc(314.5mm - 20.0mm / 1);
+	width: calc((432.0mm / 2) - 20mm);
+	height: calc((301.39mm / 1) - 20.0mm);
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: contain;
